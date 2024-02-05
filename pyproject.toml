@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "inventopt"
+authors = [{name = "Tushar Lone", email = "tushar20231102@iitgoa.ac.in"}, {name = "Neha Karanjkar", email = "nehak@iitgoa.ac.in"}]
+dynamic = ["version", "description"]
